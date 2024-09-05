@@ -1,0 +1,29 @@
+@keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  .animate-slideIn {
+    animation-name: slideIn;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+  }
+  
+  .animate-slideOut {
+    animation-name: slideOut;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+  }

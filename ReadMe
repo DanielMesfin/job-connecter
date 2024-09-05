@@ -1,0 +1,12 @@
+channels
+channels-redis
+Django
+django-channels
+django-cors-headers
+django-phone-field
+django-rest-framework
+djangorestframework
+pillow
+scikit-learn
+pip install django-social-share
+python -m pip install -U channels["daphne"]
